@@ -5,7 +5,7 @@ I fix bugs in other people's open-source projects: firmware and RTOS code, build
 **Highlights**
 
 - Reported **CVE-2026-44726** to Deno ([GHSA-chqv-56wv-7564](https://github.com/denoland/deno/security/advisories/GHSA-chqv-56wv-7564)) and wrote the merged fix, [deno#32838](https://github.com/denoland/deno/pull/32838).
-- **96 merged pull requests across 67 upstream projects**, including Deno, Apache NuttX, Apache Airflow, Zephyr, ESPHome, ninja, Meson, SCons, pip tooling, and Gitea.
+- **97 merged pull requests across 68 upstream projects**, including Deno, Apache NuttX, Apache Airflow, Zephyr, ESPHome, ninja, Meson, SCons, pip tooling, and Gitea.
 - Most of these come with a regression test and go through the project's own review.
 
 **Selected merged contributions**
