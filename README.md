@@ -5,7 +5,7 @@ I fix bugs in other people's open-source projects: firmware and RTOS code, build
 **Highlights**
 
 - Reported **CVE-2026-44726** to Deno ([GHSA-chqv-56wv-7564](https://github.com/denoland/deno/security/advisories/GHSA-chqv-56wv-7564)) and wrote the merged fix, [deno#32838](https://github.com/denoland/deno/pull/32838).
-- **93 merged pull requests across 64 upstream projects**, including Deno, Apache NuttX, Apache Airflow, Zephyr, ESPHome, ninja, Meson, SCons, pip tooling, and Gitea.
+- **96 merged pull requests across 67 upstream projects**, including Deno, Apache NuttX, Apache Airflow, Zephyr, ESPHome, ninja, Meson, SCons, pip tooling, and Gitea.
 - Most of these come with a regression test and go through the project's own review.
 
 **Selected merged contributions**
@@ -20,6 +20,7 @@ I fix bugs in other people's open-source projects: firmware and RTOS code, build
 | Nuitka | `getattr()` default applies only to `AttributeError`, matching CPython | [#4078](https://github.com/Nuitka/Nuitka/pull/4078) |
 | Apache Airflow | Beam async hook no longer launches pipelines through a shell | [#72510](https://github.com/apache/airflow/pull/72510) |
 | ninja | `ninja_syntax`: escape paths in `Writer.default` | [#2837](https://github.com/ninja-build/ninja/pull/2837) |
+| NASA F´ (fprime) | CmdSequencer: guard `seqDone` on rejected port runs and reject `CS_STEP` over a pending timed record | [#6180](https://github.com/nasa/fprime/pull/6180) |
 
 **Areas:** embedded and RTOS (NuttX, Zephyr, ESPHome, embedded Rust), RISC-V, build systems and Python packaging (ninja, Meson, SCons, pip/virtualenv/pdm, PyInstaller), runtimes and security (Deno, Nuitka).
 
